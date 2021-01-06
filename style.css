@@ -1,12 +1,33 @@
-body{
-    margin: 0;
-}
-
 h1{
     font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-span{
+
+#box-one{
+    height: 50px;
+    padding-bottom: 5px;
+}
+.points{
+    height: 10px;
+}
+#pointer{
+    border: 5px solid white;
+    width: 350px;
+    height: 50px;
+    position: absolute;
+    left: 950px;  
+}
+.box{
+    float: left;
+}
+#color-one{
+    color: navy;
+}
+#color-two{
     color: red;
+}
+#para-size{
+    font-size: 20px;
 }
 .half-width{
     float: left;
@@ -20,7 +41,7 @@ span{
 }
 section{
     height: 500px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
 }
 h2{
     font-size: 40px;
@@ -40,8 +61,48 @@ h2{
     background-color: whitesmoke;
     height: 80%;
     border-radius: 5px;
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    padding: 2%;
 }
-.right{
+.rights{
     text-align: center;
     font-size: 20px;
+}
+h2{
+    text-align: center;
+}
+/*.one{
+    float: left;
+    width: 20%;
+    margin-left: 5%;
+    padding: 2%;
+}*/
+.first{
+    float: left;
+    width: 5%;
+}
+#one{
+    border: 2px solid white;
+    width: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#two{
+    border: 2px solid white;
+    width: 15%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#three{
+    border: 2px solid white;
+    width: 20%;
+    margin-left: 3%;
+    margin-right: 3%;
+}
+#four{
+    border: 2px solid white;
+    width: 20%;
+    margin-left: 3%;
 }
